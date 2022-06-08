@@ -129,9 +129,9 @@
   right: 0px;
   bottom: 0px;
   display: flex;
-  -webkit-justify-content: flex-end;
-  -moz-justify-content: flex-end;
-  -o-justify-content: flex-end;
+  -webkit-justify-content: end;
+  -moz-justify-content: end;
+  -o-justify-content: end;
   justify-content: end;
   align-items: center;
   flex-direction: column;
