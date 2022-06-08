@@ -17,10 +17,13 @@
   /* background-image: url("https://www.seekpng.com/png/full/34-348354_pink-rose-border-png-download-pink-rose-border.png"); */
   background: url("../images/AC_03774.JPG");
   background-position: center;
-  background-size: cover;
+
   background-repeat: no-repeat;
-  /* background-color: rgb(255, 255, 255); */
   mix-blend-mode: screen;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   /* box-shadow: 13px 10px 10px #f09ab0, -20px -11px 7px 13px #e7e7f0,
     -20px 5px 20px 12px #f2c5f7, 1px 7px 20px 4px #cd9eba; */
 }
