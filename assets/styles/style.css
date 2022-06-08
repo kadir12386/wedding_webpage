@@ -133,6 +133,9 @@
   -moz-justify-content: end;
   -o-justify-content: end;
   justify-content: end;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
   align-items: center;
   flex-direction: column;
   background-color: #43434270;
@@ -159,7 +162,6 @@
 .timer-container__countdown {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
   grid-gap: 75px;
 }
 .timer-container__countdown div {
