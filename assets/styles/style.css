@@ -8,13 +8,40 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/* .main_container {
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in;
+}
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+.loader img {
+  width: 450px;
+  background: transparent;
+}
+@media (max-width: 425px) {
+  .loader img {
+    width: 300px;
+  }
+} */
+
 .homepage__container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* background-image: url("https://www.seekpng.com/png/full/34-348354_pink-rose-border-png-download-pink-rose-border.png"); */
   background: url("../images/AC_03774.JPG");
   background-position: center;
   background-repeat: no-repeat;
@@ -22,8 +49,6 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  /* box-shadow: 13px 10px 10px #f09ab0, -20px -11px 7px 13px #e7e7f0,
-    -20px 5px 20px 12px #f2c5f7, 1px 7px 20px 4px #cd9eba; */
 }
 .homepage__container::before {
   position: absolute;
@@ -32,22 +57,6 @@
   height: 100%;
   background-color: rgba(46, 45, 45, 0.396);
 }
-
-/* .homepage__container__left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-} */
-/* .homepage__container__right {
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
-/* .homepage__container__image {
-  width: 450px;
-  mix-blend-mode: screen;
-} */
 .homepage__container__imagecontainer {
   position: relative;
 }
@@ -83,11 +92,9 @@
   font-size: 50px;
   font-family: "Sacramento", cursive;
   text-align: left;
-  /* padding-left: 30px; */
 }
 .homepage__container_name.left {
   text-align: right;
-  /* padding-right: 0px; */
 }
 .heart__gifimage {
   position: absolute;
@@ -96,14 +103,13 @@
   width: 100px;
   mix-blend-mode: plus-lighter;
 }
-
-/* .homepage__container__imagecontainer__gif {
-  position: absolute;
-  bottom: 0;
-  left: -20%;
-  width: 350px;
-  display: none;
-} */
+.header_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
 .title_name {
   color: rgb(77, 76, 76);
   text-align: center;
@@ -111,11 +117,149 @@
   font-size: 50px;
   margin-bottom: 20px;
 }
+.title_name_image {
+  position: absolute;
+  top: 89%;
+  top: 50%;
+  width: 140px;
+}
+.title_name_image1 {
+  position: absolute;
+  top: 70%;
+  width: 140px;
+}
+/* couple_details */
+.couple_details {
+  margin: 100px 0px;
+  /* background-color: #89ebca; */
+}
+.couple_flexcontainer {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px 40px;
+  /* background-color: #fffdf6;
+  background-color: #e5e5e5; */
+  /* background: url("https://themegeniuslab.com/html/pretty/assets/images/story-bg.png"); */
+  /* background: url("https://previews.123rf.com/images/1stchoice/1stchoice1602/1stchoice160200037/53541125-white-background-soft-light-grey-texture.jpg"); */
+  /* background: url("http://www.fertisur.com/wp-content/uploads/revslider/homepage4/leaves.png"); */
+  /* background-image: url("https://i.pinimg.com/originals/d0/90/02/d09002f5f19d14ce35a9585864cfce27.png"); */
+  /* background: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/15151.png"); */
+  /* background: url("https://www.pngkey.com/png/full/240-2400619_royalty-free-download-pink-fresh-png-vectors-psd.png"); */
+  /* background-image: url("https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-323.jpg?t=st=1654770812~exp=1654771412~hmac=3d6af9ba7db777bdca2f08bec9286bccc52b6e30569403ad27217cf95a459ff3&w=1800"); */
+  background-position: center;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* background-color: #b9cc9266; */
+  /* background-color: aliceblue; */
+  /* background-color: #f2efe4a3; */
+}
+.couple_flexcontainer::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(218, 218, 218, 0.242);
+}
+.couple_flexcontainer h3 {
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  font-size: 20px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  color: #d13e37;
+}
+.couple_flexcontainer p {
+  color: rgba(105, 105, 105, 0.78);
+  line-height: 30px;
+  text-align: justify;
+  font-weight: 400;
+}
+.couple_container_box1 {
+  position: relative;
+  flex-basis: 30%;
+  padding: 15px 0px 0px 30px;
+  text-align: right;
+  border-top: 1px solid rgb(135, 135, 135);
+  border-left: 1px solid rgb(158, 158, 158);
+
+  border-top: 2px solid rgba(135, 135, 135, 0.41);
+  border-left: 2px solid rgba(135, 135, 135, 0.369);
+}
+.border-shape {
+  position: absolute;
+  top: -4%;
+  left: -7%;
+}
+.border-shape img {
+  width: 90px;
+}
+
+.border-shape2 {
+  position: absolute;
+  right: -3%;
+  top: -9.6%;
+  transform: rotate(95deg);
+}
+.border-shape2 img {
+  width: 90px;
+}
+.couple_container_box2 {
+  position: relative;
+  flex-basis: 30%;
+  padding: 20px 10px;
+}
+/* top photo layout */
+.couple_container_box2::before {
+  content: "";
+  position: absolute;
+  width: 370px;
+  height: 490px;
+  top: 23px;
+  left: 15px;
+  background-color: rgba(61, 60, 60, 0.11);
+  background-color: rgb(255 95 95 / 21%);
+  border-radius: 10px;
+  z-index: 100;
+}
+.couple_imagebox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 360px;
+  height: 530px;
+  border: 4px solid rgb(226 196 66);
+  border-radius: 2px;
+}
+.couple_container_box2 .couple_container_image {
+  position: relative;
+  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 10;
+  padding: 5px;
+}
+
+.couple_container_box3 {
+  position: relative;
+  flex-basis: 30%;
+  padding: 10px 30px 0px 0px;
+  text-align: left;
+  margin-left: 0px;
+  border-top: 2px solid rgba(135, 135, 135, 0.369);
+  border-right: 2px solid rgba(135, 135, 135, 0.369);
+}
+/* couple_details Ends  */
+
 .timer_image {
   position: relative;
   width: 100%;
   height: 550px;
-  /* background: url("https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?cs=srgb&dl=pexels-viresh-studio-1444442.jpg&fm=jpg"); */
   background: url("../images/AC_03817.JPG");
   background-position: center;
   background-size: cover;
@@ -222,14 +366,18 @@ footer {
 .footer_container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .footer_container p {
-  text-align: center;
+  color: rgb(213, 213, 213);
+  padding-bottom: 5px;
 }
 .footer_container a {
   color: #e65a53;
   text-decoration: none;
   cursor: pointer;
+  font-size: 17px;
 }
 .footer_container a:hover {
   color: #89ebca;
@@ -241,6 +389,40 @@ footer {
     padding: 15px 22px;
     width: 70vw;
   }
+  .couple_container_box2 .couple_container_image {
+    position: relative;
+    width: 333px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 10;
+    padding: 5px;
+  }
+  .couple_container_box2::before {
+    width: 320px;
+    height: 450px;
+    top: 23px;
+    left: 15px;
+  }
+  .couple_imagebox::before {
+    top: 6px;
+    left: -9px;
+    width: 320px;
+    height: 433px;
+  }
+  .couple_flexcontainer {
+    padding: 60px 10px;
+  }
+  .couple_container_box1 {
+    padding: 0px 0px 0px 10px;
+  }
+  .couple_container_box2 {
+    margin: 40px 0px;
+  }
+
+  .couple_container_box3 {
+    padding: 0px 10px 0px 0px;
+  }
 }
 @media (max-width: 991px) {
   .homepage__container__imagecontainer__gif {
@@ -249,6 +431,21 @@ footer {
   .homepage__container__imagecontainer__text {
     padding: 15px 22px;
     width: 90vw;
+  }
+  .couple_flexcontainer {
+    padding: 60px 30px;
+    flex-direction: column;
+  }
+  .border-shape {
+    position: absolute;
+    top: -6%;
+    left: -3%;
+  }
+  .border-shape2 {
+    position: absolute;
+    right: -3%;
+    top: -9.6%;
+    transform: rotate(113deg);
   }
   .timer-container {
     left: 0;
@@ -259,6 +456,24 @@ footer {
   }
 }
 @media (max-width: 769px) {
+  .border-shape {
+    position: absolute;
+    top: -6%;
+    left: -4%;
+  }
+  .border-shape2 {
+    right: -4%;
+    top: -8.6%;
+  }
+  .footer_container p {
+    font-size: 14px;
+  }
+  .footer_container a {
+    font-size: 14px;
+  }
+  footer {
+    padding: 5px;
+  }
 }
 @media (max-width: 600px) {
   .homepage__container__image {
@@ -289,6 +504,33 @@ footer {
     top: 90px;
     width: 70px;
   }
+  .border-shape img,
+  .border-shape2 img {
+    width: 75px;
+  }
+  .border-shape {
+    position: absolute;
+    top: -6%;
+    left: -5%;
+  }
+  .border-shape2 {
+    right: -4%;
+    top: -6.6%;
+  }
+  .couple_container_box2 .couple_container_image {
+    width: 300px;
+    height: 400px;
+  }
+  .couple_container_box2::before {
+    width: 291px;
+    height: 389px;
+  }
+  .couple_imagebox::before {
+    top: 6px;
+    left: -12px;
+    width: 290px;
+    height: 379px;
+  }
   .timer-container__countdown div {
     width: 90px;
     height: 90px;
@@ -297,7 +539,6 @@ footer {
     font-size: 30px;
     margin-bottom: 40px;
   }
-
   .timer-container__countdown div::before {
     font-size: 14px;
   }
@@ -310,7 +551,7 @@ footer {
     margin-top: 20px;
   }
   .title_name {
-    font-size: 35px;
+    font-size: 40px;
   }
   .contact-details {
     margin: 70px 20px;
@@ -326,6 +567,29 @@ footer {
   .homepage__container__imagecontainer__text {
     padding: 15px 0px;
   }
+  .border-shape {
+    position: absolute;
+    top: -4%;
+    left: -6%;
+  }
+  .couple_imagebox::before {
+    display: none;
+  }
+  .couple_flexcontainer {
+    padding: 60px 15px;
+  }
+  .couple_container_box2 {
+    padding: 20px 0px;
+  }
+  .couple_container_box2 .couple_container_image {
+    width: 290px;
+    height: 400px;
+  }
+  .couple_container_box2::before {
+    width: 271px;
+    height: 389px;
+    left: 5px;
+  }
   .timer-container__countdown div {
     width: 80px;
     height: 75px;
@@ -333,7 +597,7 @@ footer {
     font-size: 20px;
   }
   .title_name {
-    font-size: 33px;
+    font-size: 38px;
   }
   .contact-details {
     margin: 70px 10px;
