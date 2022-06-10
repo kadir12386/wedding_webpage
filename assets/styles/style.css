@@ -455,10 +455,9 @@ footer {
     left: -3%;
   }
   .border-shape2 {
-    position: absolute;
-    right: -3%;
-    top: -9.6%;
-    transform: rotate(113deg);
+    right: 0%;
+    top: -15.6%;
+    transform: rotate(85deg);
   }
   .timer-container {
     left: 0;
@@ -475,8 +474,8 @@ footer {
     left: -4%;
   }
   .border-shape2 {
-    right: -4%;
-    top: -8.6%;
+    right: 0%;
+    top: -15.6%;
   }
   .footer_container p {
     font-size: 14px;
@@ -526,9 +525,9 @@ footer {
     left: -5%;
   }
   .border-shape2 {
-    right: 1%;
+    right: 0%;
     top: -7.6%;
-    transform: rotate(84deg);
+    transform: rotate(90deg);
   }
   .border-shape2 img {
     width: 59px;
