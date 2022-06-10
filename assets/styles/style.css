@@ -36,6 +36,15 @@
   }
 } */
 
+.preloader {
+  background: rgb(255, 255, 255)
+    url("https://cdn.dribbble.com/users/79369/screenshots/1940485/heart.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
 .homepage__container {
   position: relative;
   display: flex;

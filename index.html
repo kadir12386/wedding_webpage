@@ -68,6 +68,8 @@
         />
       </div>
     </div> -->
+
+    <div class="preloader"></div>
     <div class="main_container">
       <!-- HomePage Banner  -->
       <section class="homepage__container">
@@ -448,6 +450,12 @@
         }, 1000);
       });
     </script> -->
+    <script>
+      var loader = document.querySelector(".preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
     <script>
       AOS.init({
         // offset: 200,
