@@ -264,6 +264,9 @@
   background: url("../images/AC_03817.JPG");
   background-position: center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
 }
@@ -456,8 +459,8 @@ footer {
   }
   .border-shape2 {
     right: 0%;
-    top: -15.6%;
-    transform: rotate(85deg);
+    top: -11.6%;
+    transform: rotate(90deg);
   }
   .timer-container {
     left: 0;
