@@ -583,10 +583,13 @@ footer {
   .homepage__container__imagecontainer__text {
     padding: 15px 0px;
   }
+  .border-shape img {
+    width: 49px;
+  }
   .border-shape {
     position: absolute;
-    top: -4%;
-    left: -6%;
+    top: -2%;
+    left: -4%;
   }
   .couple_imagebox::before {
     display: none;
@@ -602,9 +605,10 @@ footer {
     height: 400px;
   }
   .couple_container_box2::before {
-    width: 271px;
+    width: 281px;
     height: 389px;
     left: 5px;
+    top: 25px;
   }
   .timer-container__countdown div {
     width: 80px;
