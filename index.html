@@ -12,6 +12,18 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./assets/styles/card.css" />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="assets/images/favicon-16x16.png"
+      type="image/x-icon"
+    />
     <style>
       .sliderimage_conatiner {
         margin: 100px 100px;
@@ -60,16 +72,13 @@
   </head>
   <body>
     <!-- loader -->
-    <!-- <div class="page_loader">
+    <div class="page_loader">
       <div class="loader">
-        <img
-          src="https://cdn.dribbble.com/users/79369/screenshots/1940485/heart.gif"
-          alt="loader"
-        />
+        <img src="assets/images/heart-loader.gif" alt="loader" />
       </div>
-    </div> -->
+    </div>
 
-    <div class="preloader"></div>
+    <!-- <div class="preloader"></div> -->
     <div class="main_container">
       <!-- HomePage Banner  -->
       <section class="homepage__container">
@@ -178,13 +187,13 @@
           </div>
           <div class="couple_container_box3">
             <div class="border-shape2">
-              <img src="assets/images/border_flower1.png" alt="" />
+              <img src="assets/images/border_flower2.png" alt="" />
             </div>
             <h3>THE BRIDE</h3>
             <img
               src="http://cdn.onlinewebfonts.com/svg/img_34671.png"
               alt=""
-              width="62px"
+              width="45px"
             />
             <p>
               "He's the best gift I have got In my life. The best thing happened
@@ -436,24 +445,15 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <!-- <script>
-      // loader script
-      const loader = document.querySelector(".loader");
-      const main_content = document.querySelector(".main_container");
-      window.addEventListener("load", () => {
-        setTimeout(() => {
-          loader.style.opacity = 0;
-          loader.style.display = "none";
 
-          main_content.style.display = "block";
-          setTimeout(() => (main_content.style.opacity = 1), 50);
-        }, 1000);
-      });
-    </script> -->
     <script>
-      var loader = document.querySelector(".preloader");
+      var loader = document.querySelector(".loader");
+      const main_content = document.querySelector(".main_container");
       window.addEventListener("load", function () {
+        loader.style.opacity = 0;
         loader.style.display = "none";
+        main_content.style.display = "block";
+        main_content.style.opacity = 1;
       });
     </script>
     <script>
@@ -488,8 +488,6 @@
     </script>
     <script>
       const countDate = new Date("Jun 27, 2022 00:00:00").getTime();
-      console.log(countDate);
-      // const nDate = new Date(Tue Jul 06 2021 10:05:00); // Day Mon dd yyyy hh:mm:ss
       function newYear() {
         const now = new Date().getTime();
         const gap = countDate - now;

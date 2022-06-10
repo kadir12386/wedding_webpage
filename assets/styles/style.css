@@ -9,7 +9,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* .main_container {
+.main_container {
   opacity: 0;
   display: none;
   transition: opacity 1s ease-in;
@@ -20,6 +20,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -o-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,29 +33,21 @@
   background-color: transparent;
 }
 .loader img {
-  width: 450px;
+  width: 300px;
   background: transparent;
 }
-@media (max-width: 425px) {
-  .loader img {
-    width: 300px;
-  }
-} */
 
-.preloader {
-  background: rgb(255, 255, 255)
-    url("https://cdn.dribbble.com/users/79369/screenshots/1940485/heart.gif");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-  z-index: 100;
-}
 .homepage__container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -o-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
   height: 100vh;
   background: url("../images/AC_03774.JPG");
   background-position: center;
@@ -117,6 +115,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -o-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
   margin-bottom: 50px;
 }
 .title_name {
@@ -140,31 +144,19 @@
 /* couple_details */
 .couple_details {
   margin: 100px 0px;
-  /* background-color: #89ebca; */
 }
 .couple_flexcontainer {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  -webkit-justify-content: space-evenly;
+  -o-justify-content: space-evenly;
+  -moz-justify-content: space-evenly;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
   padding: 60px 40px;
-  /* background-color: #fffdf6;
-  background-color: #e5e5e5; */
-  /* background: url("https://themegeniuslab.com/html/pretty/assets/images/story-bg.png"); */
-  /* background: url("https://previews.123rf.com/images/1stchoice/1stchoice1602/1stchoice160200037/53541125-white-background-soft-light-grey-texture.jpg"); */
-  /* background: url("http://www.fertisur.com/wp-content/uploads/revslider/homepage4/leaves.png"); */
-  /* background-image: url("https://i.pinimg.com/originals/d0/90/02/d09002f5f19d14ce35a9585864cfce27.png"); */
-  /* background: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/15151.png"); */
-  /* background: url("https://www.pngkey.com/png/full/240-2400619_royalty-free-download-pink-fresh-png-vectors-psd.png"); */
-  /* background-image: url("https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-323.jpg?t=st=1654770812~exp=1654771412~hmac=3d6af9ba7db777bdca2f08bec9286bccc52b6e30569403ad27217cf95a459ff3&w=1800"); */
-  background-position: center;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  /* background-color: #b9cc9266; */
-  /* background-color: aliceblue; */
-  /* background-color: #f2efe4a3; */
 }
 .couple_flexcontainer::before {
   position: absolute;
@@ -376,6 +368,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
   flex-direction: column;
 }
 .footer_container p {
@@ -445,6 +443,12 @@ footer {
     padding: 60px 30px;
     flex-direction: column;
   }
+  .couple_container_box1 {
+    text-align: center;
+  }
+  .couple_container_box3 {
+    text-align: center;
+  }
   .border-shape {
     position: absolute;
     top: -6%;
@@ -513,18 +517,21 @@ footer {
     top: 90px;
     width: 70px;
   }
-  .border-shape img,
-  .border-shape2 img {
-    width: 75px;
+  .border-shape img {
+    width: 59px;
   }
   .border-shape {
     position: absolute;
-    top: -6%;
+    top: -3%;
     left: -5%;
   }
   .border-shape2 {
-    right: -4%;
-    top: -6.6%;
+    right: 1%;
+    top: -7.6%;
+    transform: rotate(84deg);
+  }
+  .border-shape2 img {
+    width: 59px;
   }
   .couple_container_box2 .couple_container_image {
     width: 300px;
@@ -610,5 +617,10 @@ footer {
   }
   .contact-details {
     margin: 70px 10px;
+  }
+}
+@media (max-width: 425px) {
+  .loader img {
+    width: 270px;
   }
 }

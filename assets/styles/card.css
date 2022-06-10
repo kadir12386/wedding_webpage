@@ -4,32 +4,27 @@
 }
 .wedding_container {
   position: relative;
-  /* background-image: url("https://cdn.pixabay.com/photo/2017/01/22/12/01/postcard-1999622_1280.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-  /* background-image: url("https://www.kindpng.com/picc/m/5-55799_watercolor-flowers-borders-elements-ornaments-png-free-ornaments.png");
-  background-image: url("https://cdn.pixabay.com/photo/2021/02/10/00/27/hot-air-balloon-6000454_640.png");
-  background-position: center center;
-  background-size: cover; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
-  /* background-color: #3c2846; */
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
 }
-/* .wedding_container::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(225, 225, 225, 0.246);
-} */
 .fullcontainer {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
   flex-wrap: wrap;
   padding: 40px;
 }
@@ -39,6 +34,7 @@
   top: 60%;
   transform: rotate(45deg);
   background-blend-mode: exclusion;
+  opacity: 0.5;
 }
 .fullcontainer_cards {
   position: relative;
@@ -47,14 +43,16 @@
   margin: 30px;
   background-color: #e0e1e2;
   border-radius: 20px;
-  /* border-bottom-left-radius: 160px; */
-  /* border-bottom-right-radius: 160px; */
-  /* box-shadow: -2px 0px 0 #fff, inset 0px 0px 0 rgb(255 255 255 / 25%),
-    9px 9px 0px 1px rgb(26 24 24 / 10%); */
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -o-align-items: flex-start;
 }
 
 .fullcontainer_cards::before {
@@ -69,23 +67,12 @@
   pointer-events: none;
   filter: blur(5px);
 }
-
-/* .fullcontainer_cards:nth-child(1) {
-  background: linear-gradient(to bottom, #ff2ae0, #645bf6);
-}
-.fullcontainer_cards:nth-child(2) {
-  background: linear-gradient(to bottom, #ffec61, #f321d7);
-}
-.fullcontainer_cards:nth-child(3) {
-  background: linear-gradient(to bottom, #24ff72, #9a4eff);
-} */
 /* icon */
 .fullcontainer_cards__icon {
   position: relative;
-  /* top: -20px; */
   width: 140px;
   height: 126px;
-  background-color: #fbfafb;
+  background-color: #ffffff;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1), inset 0 -8px 0 #fff;
@@ -93,6 +80,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center;
 }
 .fullcontainer_cards__icon::before {
   content: "";
@@ -133,7 +126,6 @@
   width: 100%;
   padding: 30px;
   padding-top: 140px;
-  /* text-align: center; */
 }
 .fullcontainer_cards__content h2 {
   font-size: 30px;
