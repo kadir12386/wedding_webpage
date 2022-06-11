@@ -165,6 +165,10 @@
   }
 }
 @media (max-width: 600px) {
+  .wedding-details {
+    position: relative;
+    margin: 50px 10px 20px;
+  }
   .fullcontainer_cards {
     margin: 30px 1px;
   }
