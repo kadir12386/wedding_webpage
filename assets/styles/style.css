@@ -186,9 +186,6 @@
   flex-basis: 30%;
   padding: 15px 0px 0px 30px;
   text-align: right;
-  border-top: 1px solid rgb(135, 135, 135);
-  border-left: 1px solid rgb(158, 158, 158);
-
   border-top: 2px solid rgba(135, 135, 135, 0.41);
   border-left: 2px solid rgba(135, 135, 135, 0.369);
 }
@@ -223,9 +220,9 @@
   height: 490px;
   top: 23px;
   left: 15px;
-  background-color: rgba(61, 60, 60, 0.11);
-  background-color: rgb(255 95 95 / 21%);
-  background-color: rgb(253 215 215 / 32%);
+  /* background-color: rgba(61, 60, 60, 0.11);
+  background-color: rgb(255 95 95 / 21%); */
+  background-color: rgb(150 146 146 / 35%);
   border-radius: 10px;
   z-index: 100;
 }
@@ -506,8 +503,11 @@ footer {
   }
   .homepage__container__imagecontainer__text .homepage__container_name {
     margin-top: 60px;
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
+  }
+  .homepage__container__imagecontainer__text p {
+    font-size: 23px;
   }
   .homepage__container__imagecontainer__text h5 {
     font-size: 17px;
@@ -552,6 +552,7 @@ footer {
     width: 290px;
     height: 379px;
   }
+
   .timer-container__countdown div {
     width: 90px;
     height: 90px;
@@ -588,6 +589,9 @@ footer {
   }
   .homepage__container__imagecontainer__text {
     padding: 15px 0px;
+  }
+  .homepage__container__imagecontainer__text .homepage__container_name {
+    font-size: 34px;
   }
   .border-shape img {
     width: 49px;

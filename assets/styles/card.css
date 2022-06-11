@@ -171,4 +171,17 @@
   .fullcontainer {
     padding: 2px;
   }
+  .fullcontainer_cards__content h2 {
+    font-size: 26px;
+    color: rgb(180, 17, 17);
+  }
+  .fullcontainer_cards__content .wedding_data {
+    font-size: 18px;
+  }
+  .fullcontainer_cards__content .wedding_place {
+    font-size: 17px;
+  }
+  .cards_address_details h4 {
+    font-size: 20px;
+  }
 }
