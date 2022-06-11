@@ -200,8 +200,8 @@
 
 .border-shape2 {
   position: absolute;
-  right: -3%;
-  top: -9.6%;
+  right: -2%;
+  top: -9.8%;
   transform: rotate(95deg);
 }
 .border-shape2 img {
@@ -535,11 +535,11 @@ footer {
   }
   .border-shape2 {
     right: 0%;
-    top: -7.6%;
+    top: -6.6%;
     transform: rotate(90deg);
   }
   .border-shape2 img {
-    width: 59px;
+    width: 52px;
   }
   .couple_container_box2 .couple_container_image {
     width: 300px;
