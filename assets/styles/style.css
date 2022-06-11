@@ -369,7 +369,7 @@
   display: none;
 }
 .thankyou_container .thankyou_container_image {
-  width: 300px;
+  width: 260px;
 }
 /* footer */
 footer {
@@ -592,6 +592,12 @@ footer {
     font-size: 23px;
     margin-top: 20px;
     margin-bottom: 17px;
+  }
+  .title_name_image {
+    position: absolute;
+    top: 89%;
+    top: 43%;
+    width: 130px;
   }
   .title_name {
     font-size: 40px;
