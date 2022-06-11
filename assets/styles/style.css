@@ -590,8 +590,20 @@ footer {
   .homepage__container__imagecontainer__text {
     padding: 15px 0px;
   }
+  .homepage__container__imagecontainer__text h5 {
+    font-size: 14px;
+  }
+  .homepage__container__imagecontainer__text p {
+    font-size: 20px;
+  }
+  .heart__gifimage {
+    position: absolute;
+    left: 42%;
+    top: 78px;
+    width: 58px;
+  }
   .homepage__container__imagecontainer__text .homepage__container_name {
-    font-size: 34px;
+    font-size: 30px;
   }
   .border-shape img {
     width: 49px;
