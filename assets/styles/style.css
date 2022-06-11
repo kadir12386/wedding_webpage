@@ -63,7 +63,8 @@
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 45, 45, 0.396);
+  background-color: rgb(192 190 190 / 29%);
+  background-color: rgb(121 120 120 / 29%);
 }
 .homepage__container__imagecontainer {
   position: relative;
@@ -224,6 +225,7 @@
   left: 15px;
   background-color: rgba(61, 60, 60, 0.11);
   background-color: rgb(255 95 95 / 21%);
+  background-color: rgb(253 215 215 / 32%);
   border-radius: 10px;
   z-index: 100;
 }
@@ -568,6 +570,7 @@ footer {
   .timer-container h3 {
     font-size: 23px;
     margin-top: 20px;
+    margin-bottom: 17px;
   }
   .title_name {
     font-size: 40px;
