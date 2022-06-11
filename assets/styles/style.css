@@ -52,6 +52,9 @@
   background: url("../images/AC_03774.JPG");
   background-position: center;
   background-repeat: no-repeat;
+  -o-background-position: center;
+  -moz-background-position: center;
+  -webkit-background-position: center;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
