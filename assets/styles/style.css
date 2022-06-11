@@ -480,6 +480,7 @@ footer {
     grid-gap: 30px;
   }
   .thankyou_container {
+    background-color: #fdfdfd;
     display: block;
     display: flex;
     justify-content: center;
